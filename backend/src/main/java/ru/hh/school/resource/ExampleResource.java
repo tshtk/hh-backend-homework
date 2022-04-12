@@ -11,10 +11,10 @@ import javax.ws.rs.Path;
 @Path("/")
 public class ExampleResource {
 
-  private static final Logger logger = LoggerFactory.getLogger(ExampleResource.class);
+    private static final Logger logger = LoggerFactory.getLogger(ExampleResource.class);
 
-  @GET
-  public void dummy() {
-    logger.info("Do nothing");
-  }
+    @GET
+    public void dummy() {
+        logger.info("Do nothing");
+    }
 }
